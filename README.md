@@ -1,0 +1,1 @@
+- Predicts next day stock returns using a multivariate regression model
