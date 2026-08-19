@@ -19,5 +19,6 @@ def implementStrategy(x_train,weights):
             target_position = current_position
         current_position = trade_amount
         position_size.append(target_position)
+        
     return trading_signals,position_size
 
