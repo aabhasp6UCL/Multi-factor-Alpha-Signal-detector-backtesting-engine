@@ -118,7 +118,6 @@ By default, the pipeline pulls historical data for a single ticker, builds the f
 
 This project is under active development. Planned next steps:
 
-- [ ] Finish wiring the full pipeline end-to-end in `main.py` (features → signals → backtest → evaluation, in one run)
 - [ ] Add a drift-tolerance band to the backtester so positions rebalance on significant market-driven drift, not only on signal changes
 - [ ] Extend signal generation and the backtester to support short positions
 - [ ] Expand from a single-asset regression to a true multi-factor, multi-asset framework
