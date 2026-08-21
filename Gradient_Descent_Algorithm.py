@@ -5,8 +5,8 @@ def implementGradDescent(x_train,y_train):
     n = len(x_train)
 
     weights = np.zeros(3)
-    feature_matrix = (
-    feature_matrix - np.mean(feature_matrix, axis=0)
+    x_train = (
+    x_train - np.mean(feature_matrix, axis=0)
     ) / np.std(feature_matrix, axis=0)
 
     for training in range(1000):
