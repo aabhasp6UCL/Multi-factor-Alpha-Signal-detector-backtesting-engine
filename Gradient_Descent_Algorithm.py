@@ -29,8 +29,8 @@ def implementGradDescent(x_train,y_train):
         # Hence the loss vector turns out to be [(2/n)*e*x1^T, (2/n)*e*x2^T, (2/n)*e*x3^T]^T = (2/n)*e*[x1^T, x2^T, x3^T]
         # ... = [feature_matrix]^T*((2/n)*e)
 
-    transpose = x_train.T
-    loss_vector = (2/n)*(transpose @ error_vector)
-    weights = weights - lr*loss_vector
+        transpose = x_train.T
+        loss_vector = (2/n)*(transpose @ error_vector)
+        weights = weights - lr*loss_vector
 
     return weights,loss
