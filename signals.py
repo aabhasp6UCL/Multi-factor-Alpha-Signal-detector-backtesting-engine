@@ -1,4 +1,5 @@
 def implementStrategy(x_train,weights):
+    
     predicted_returns = x_ train @ weights
     mean = np.mean(predicted_returns)
     std = np.std(predicted_returns)
@@ -19,6 +20,6 @@ def implementStrategy(x_train,weights):
             target_position = current_position
         current_position = trade_amount
         position_size.append(target_position)
-        
+
     return trading_signals,position_size
 
